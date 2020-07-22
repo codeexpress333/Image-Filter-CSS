@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #e7e2e2;
+}
+
+.container .imgBox {
+    margin: 8px 20px;
+}
+
+/* Original Image */
+.container .imgBox img {
+    max-width: 180px;
+    object-fit: cover;
+}
+
+.container .imgBox h5 {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+/* Black & White */
+.bw {
+    filter: grayscale(100%);
+}
+
+/* Blur */
+.blur {
+    filter: blur(3px);
+}
+
+/* Brighten */
+.brighten {
+    filter: brightness(200%);
+}
+
+/* Contrast */
+.contrast {
+    filter: contrast(200%);
+}
+
+/* Drop Shadow */
+.drop-shadow {
+    filter: drop-shadow(8px 8px 10px #000);
+}
+
+/* Hue Rotate */
+.hue {
+    filter: hue-rotate(90deg);
+}
+
+/* Invert */
+.invert {
+    filter: invert(100%);
+}
+
+/* Opacity 0 to 1 */
+.opacity {
+    opacity: 0.5;
+}
+
+/* Saturated  */
+.saturated {
+    filter: saturate(800%);
+}
+
+/* Sepia */
+.sepia {
+    filter: sepia(100%);
+}
+
+/* Multiple */
+.multiple {
+    filter: blur(2px) grayscale(0.5) opacity(0.8);
+}
+
